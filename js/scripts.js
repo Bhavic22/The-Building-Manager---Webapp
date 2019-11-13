@@ -3,8 +3,6 @@
    Created: June 2019
    Description: Custom JS file
 */
-
-
 (function($) {
     "use strict"; 
 	

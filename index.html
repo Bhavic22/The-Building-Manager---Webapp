@@ -10,10 +10,11 @@
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/server.js"></script>
 	
 </head>
-<body data-spy="scroll" data-target=".fixed-top">
+<body data-spy="scroll" data-target=".fixed-top" onload="getAPIData()">
     
     <!-- Preloader -->
 	<div class="spinner-wrapper">
@@ -34,9 +35,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#DeskDetails">Desk Details</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#HeatMap">Heat Map</a>
                 </li>
             </ul>
         </div>
@@ -66,11 +64,12 @@
     <!-- end of header -->
 
     <!-- Desk Details -->
+
     <div id="DeskDetails" class="cards-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Heat Map</h2>
+                    <h2>Desk Details</h2>
                     <p class="p-heading p-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque dignissim enim sit.</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -83,7 +82,7 @@
                             <div class="card-title">Desk 1</div>
                             <hr class="cell-divide-hr">
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="#request">Occupied</a>
+                                <a id="846341" class="btn-solid-reg page-scroll" href="#request"></a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -95,7 +94,7 @@
                             <div class="card-title">Desk 2</div>
                             <hr class="cell-divide-hr">
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="#request">Vaccant</a>
+                                <a id="846343" class="btn-solid-reg page-scroll" href="#request"></a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -112,7 +111,7 @@
                             <div class="card-title">Desk 3</div>
                             <hr class="cell-divide-hr">
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="#request">Vacant</a>
+                                <a id="846344" class="btn-solid-reg page-scroll" href="#request"></a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -124,7 +123,7 @@
                             <div class="card-title">Desk 4</div>
                             <hr class="cell-divide-hr">
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="#request">Occupied</a>
+                                <a id="838127" class="btn-solid-reg page-scroll" href="#request"></a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -136,25 +135,6 @@
     </div> <!-- end of cards-2 -->
     <!-- end of Desk Details -->
 
-    <!-- Heat Maps -->
-    <div id="HeatMap" class="form-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Heat Map</h2>
-                    <ul class="list-unstyled li-space-lg">
-                        <li class="address">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li></br>
-                        <li><img src="https://fcoaew.bn.files.1drv.com/y4m0NsWrdSl5zYNjIIVPQwNmCo1jwPcFXDlN2B1layWfGxNRcbhiDXrQpx-dhQTU7w4i4f3rB4F3jxa4WPocIE4rvhqVxj8YPt-6tEmKwognN96KBMSz_y9JLYWAixN1Xq1wPmnQ_NqvFgig61sFfLvnUQUDZyJBOII-l_V-PPS0LbHb77NzlHvPuwPG-ARWsDcpUMHwmSp5i6Tvk4zmNrT8g?width=483&height=343&cropmode=none"></li></br></br>
-                        <li><h3>CFM:</h3><h4>24</h4></li>
-                    </ul>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form-2 -->
-    <!-- end of Heat Map -->
 
     <!-- Copyright -->
     <div class="copyright">
